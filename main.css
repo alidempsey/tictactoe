@@ -1,0 +1,7 @@
+.players img {
+    display: inline;
+    float: left;
+    width: 40%;
+    border: solid;
+
+}
