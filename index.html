@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
     <title>Tic-Tac-Toe!</title>
-    <link rel="stylesheet" href="main.css"/> 
-    
-
+    <link rel="stylesheet" href="main.css"/>
 </head>
+
 <body>
-    <h1>Let's play Tic-Tac-Toe, Colin!</h1>
-    <h2>How many players?</h2>
-    <div class="players">
-        <img src="img/oneplayer.png"/>
-        <img src="img/twoplayers.jpg"/>
+    <div id="start_game">
+        <h1>Let's play Tic-Tac-Toe, Colin!</h1>
+        <h2>How many players?</h2>
+        <div class="players">
+            <img id="one_player" src="img/oneplayer.jpg"/>
+            <img id="two_player" src="img/twoplayers.jpg"/>
+        </div>
     </div>
+        <table id="grid">
+            <tr id="row_1">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr id="row_2">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr id="row_2">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+
+
+
+
+
+
 
     <link rel="script" href="main.js"/>
 </body>
+
+
 </html>

@@ -1,7 +1,43 @@
-.players img {
-    display: inline;
-    float: left;
-    width: 40%;
-    border: solid;
+body {
+    font-family: 'Amatic SC', cursive;
+}
 
+#start_game {
+    
+}
+
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+.players img {
+    height: 200px;
+    margin: 5%;
+}
+
+.players {
+    height: 400px;
+    text-align: center;
+}
+
+#grid {
+    display: none;
+    width: 50%;
+    margin: 0 auto;
+    min-height: 500px;
+}
+
+#grid td {
+    border: solid 3px black;
+    margin: 0;
 }
