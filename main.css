@@ -31,12 +31,16 @@ h2 {
 }
 
 #grid {
-    width: 50%;
     margin: 0 auto;
-    min-height: 500px;
+    width: 513px;
+    height: 513px;
+    display: none;
 }
 
-#grid td {
+.cell {
+    height: 165px;
+    width: 165px;
     border: solid 3px black;
-    margin: 0;
+    float: left;
+
 }
