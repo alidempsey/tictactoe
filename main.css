@@ -44,3 +44,10 @@ h2 {
     float: left;
 
 }
+
+#who_wins {
+    display: none;
+    background-image: url("img/o.png");
+    margin: 0 auto;
+    width: 513px;
+}
