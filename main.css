@@ -2,6 +2,13 @@ body {
     font-family: 'Amatic SC', cursive;
 }
 
+a:hover,
+a:visited,
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
 #start_game {
     
 }
@@ -42,12 +49,33 @@ h2 {
     width: 165px;
     border: solid 3px black;
     float: left;
-
+    background-size: contain;
 }
 
 #who_wins {
     display: none;
+
+}
+
+#declare_winner,
+#tie_game {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+}
+
+#declare_winner {
     background-image: url("img/o.png");
-    margin: 0 auto;
-    width: 513px;
+}
+
+#tie_game {
+    background-image: url("img/tie.png");
+}
+
+#declare_winner h1,
+#tie_game h1 {
+    margin: auto 0;
+    padding: 149.5px 0;
+    font-size: 7em;
 }
